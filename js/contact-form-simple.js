@@ -181,7 +181,7 @@ function showSubmissionOptions(mailtoLink, whatsappLink, userData) {
                     <p><strong>Our Contact Details:</strong></p>
                     <p>📧 codenixhubtechnologies@gmail.com</p>
                     <p>📱 +91 8668846240</p>
-                    <p>📍 Wardha, Maharashtra 442001</p>
+                    <p>📍 Nagpur, Maharashtra 440001</p>
                 </div>
                 
                 <p class="response-time">We typically respond within 2-4 hours during business hours.</p>

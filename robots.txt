@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://codenixhub.onrender.com/sitemap.xml
+
+# Disallow setup files
+Disallow: /*.md$
+Disallow: /CONTACT_FORM_*.md
+Disallow: /EMAILJS_SETUP.md
+Disallow: /WEB3FORMS_SIMPLE_SETUP.md
+
+# Allow important pages
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /contact.html
+Allow: /testimonials.html
+Allow: /css/
+Allow: /js/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+
+# Crawl-delay
+Crawl-delay: 1
