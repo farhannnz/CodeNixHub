@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodenixHub - Innovating Digital Experiences</title>
+    <meta name="description"
+        content="Leading IT & Software Services Company - Web Development, Mobile Apps, UI/UX Design & Digital Solutions">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Floating Background Elements -->
+    <div class="floating-bg-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <!-- Bootstrap Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-text">Codenix<span class="logo-accent">Hub</span></span>
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="glitch-wrapper">
+                    <h1 class="hero-title glitch" data-text="CodenixHub">CodenixHub</h1>
+                    <h2 class="hero-subtitle">Innovating Digital Experiences</h2>
+                </div>
+                <p class="hero-description">Leading IT & Software Services Company - Web Development, Mobile Apps, UI/UX
+                    Design & Digital Solutions</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn-primary glow-btn">Get Started</a>
+                    <a href="contact.html" class="btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img src="hero.png" alt="CodenixHub - Digital Solutions" class="hero-main-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Preview -->
+    <section id="services-preview" class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Our <span class="accent">Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="web">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>MERN Stack, PHP, Django, WordPress - Custom websites and web applications</p>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="service-card" data-service="mobile">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Native Android & iOS applications with modern frameworks</p>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="service-card" data-service="design">
+                    <div class="card-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions for web and mobile applications</p>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="service-card" data-service="seo">
+                    <div class="card-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO & Digital Marketing</h3>
+                    <p>Boost your online presence with our digital marketing strategies</p>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="service-card" data-service="ecommerce">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Development</h3>
+                    <p>Complete online store solutions with payment integration</p>
+                    <div class="card-glow"></div>
+                </div>
+                <div class="service-card" data-service="cloud">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and deployment solutions</p>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose <span class="accent">CodenixHub</span></h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <h3>Expert Team</h3>
+                    <p>Skilled developers with years of experience in cutting-edge technologies</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <h3>Innovation First</h3>
+                    <p>We stay ahead of trends and implement the latest tech solutions</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock support and maintenance for all our projects</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <h3>Quality Assured</h3>
+                    <p>Rigorous testing and quality assurance for every deliverable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Tech Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Our <span class="accent">Tech Stack</span></h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>MongoDB</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-js-square"></i>
+                    <span>Express.js</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <span>Django</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-php"></i>
+                    <span>PHP</span>
+                </div>
+
+                <div class="tech-item">
+                    <i class="fab fa-flutter"></i>
+                    <span>Flutter</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-android"></i>
+                    <span>Android</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-swift"></i>
+                    <span>Swift</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-aws"></i>
+                    <span>AWS</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-docker"></i>
+                    <span>Docker</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section id="portfolio" class="portfolio-preview">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+            <div class="portfolio-slider">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"
+                        style="background-image: url('https://hiphopstore.in/cdn/shop/files/hiphop_Brand_Logo_20250624_115346_0000.png?v=1750747133&width=135'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #000;">
+                        <div class="project-overlay">
+                            <h3>Hip Hop Store</h3>
+                            <p>Fashion e-commerce platform</p>
+                            <a href="https://hiphopstore.in/" target="_blank" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <h3>Chemlox Organics</h3>
+                            <p>Organic products e-commerce platform</p>
+                            <a href="https://chemloxorganics.com/" target="_blank" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <h3>Agri Nurtur</h3>
+                            <p>Agricultural management platform</p>
+                            <a href="https://agrinurtur.com/" target="_blank" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our <span class="accent">Clients Say</span></h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"We appreciate the dedication and technical expertise CodenixHub brought to our project. The
+                            website they built for us is fast, secure, and perfectly aligned with our brand."</p>
+                        <div class="client-info">
+                            <h4>Mr. Ch. Venkat Reddy</h4>
+                            <span>Director, Chemlox Organics, Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Our healthcare platform required precision, security, and a professional touch — CodenixHub
+                            delivered all of it. The UI/UX was designed beautifully, and the backend is extremely
+                            reliable."</p>
+                        <div class="client-info">
+                            <h4>CEO</h4>
+                            <span>Geo Diet Wonder, Sweden</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amazing Process Section -->
+    <section class="process-amazing">
+        <div class="container">
+            <h2 class="section-title">Our <span class="accent">Process</span></h2>
+            <div class="process-timeline-amazing">
+                <div class="process-step-amazing" data-step="1">
+                    <div class="step-circle-amazing">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="step-content-amazing">
+                        <h3>Ideation</h3>
+                        <p>We brainstorm and conceptualize your vision into actionable plans</p>
+                    </div>
+                    <div class="step-line-amazing"></div>
+                </div>
+                <div class="process-step-amazing" data-step="2">
+                    <div class="step-circle-amazing">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <div class="step-content-amazing">
+                        <h3>Design</h3>
+                        <p>Creating stunning UI/UX designs that captivate your audience</p>
+                    </div>
+                    <div class="step-line-amazing"></div>
+                </div>
+                <div class="process-step-amazing" data-step="3">
+                    <div class="step-circle-amazing">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="step-content-amazing">
+                        <h3>Development</h3>
+                        <p>Building robust, scalable solutions with cutting-edge technology</p>
+                    </div>
+                    <div class="step-line-amazing"></div>
+                </div>
+                <div class="process-step-amazing" data-step="4">
+                    <div class="step-circle-amazing">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="step-content-amazing">
+                        <h3>Launch</h3>
+                        <p>Deploying your project with ongoing support and optimization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Build Your <span class="accent">Project</span></h2>
+                <p>Ready to transform your ideas into digital reality?</p>
+                <a href="contact.html" class="btn-primary glow-btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-text">Codenix<span class="logo-accent">Hub</span></span>
+                    </div>
+                    <p>Engineering digital excellence through innovative solutions</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/codenixhub" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/codenix_hub" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/codenixhub" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/codenixhub" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/codenixhub" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">SEO & Digital Marketing</a></li>
+                        <li><a href="services.html">E-commerce Development</a></li>
+                        <li><a href="services.html">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> codenixhubtechnologies@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91 8668846240</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Wardha, Maharashtra 442001</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CodenixHub — All Rights Reserved | <a href="#privacy">Privacy Policy</a> | <a
+                    href="#terms">Terms & Conditions</a></p>
+        </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-btn">
+        <a href="https://wa.me/918668846240" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
