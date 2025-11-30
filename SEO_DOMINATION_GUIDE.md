@@ -13,7 +13,7 @@
 - **Canonical URLs**: Prevent duplicate content
 
 ## 2. **HIDDEN SEO CONTENT** (Google sees, users don't)
-- **500+ SEO keywords** hidden in each page
+- **100+ SEO keywords** hidden in each page
 - **Location-based content**: Nagpur, Maharashtra, Manish Nagar, Sitabuldi
 - **Service variations**: Web development, website development, app development
 - **Technology keywords**: React, PHP, Node.js, etc.

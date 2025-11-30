@@ -201,7 +201,7 @@
 
 ### **Month 6:**
 - #1 ranking for "website development company nagpur"
-- 500+ website visitors per day
+- 200+ website visitors per day
 - 10+ new clients per month
 
 ## 🚨 **IMPORTANT REMINDERS:**
